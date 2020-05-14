@@ -1,0 +1,62 @@
+## Linear Model Assumptions
+
+Linear models make the following assumptions over the independent variables X, used to predict Y:
+
+- There is a linear relationship between X and the outcome Y
+- The independent variables X are normally distributed
+- There is no or little co-linearity among the independent variables
+- Homoscedasticity (homogeneity of variance)
+
+Examples of linear models are:
+
+- Linear and Logistic Regression
+- Linear Discriminant Analysis (LDA)
+- Principal Component Regressors
+
+### Definitions:
+
+**Linear relationship** describes a relationship between the independent variables X and the 
+target Y that is given by:
+Y ≈ β0 + β1X1 + β2X2 + ... + βnXn.
+
+**Normality** means that every variable X follows a Gaussian distribution.
+
+**Multi-colinearity** refers to the correlation of one independent variable with another. 
+Variables should not be correlated.
+
+**Homoscedasticity**, also known as homogeneity of variance, describes a situation in which the 
+error term (that is, the “noise” or random disturbance in the relationship between the independent 
+variables X and the dependent variable Y is the same across all the independent variables.
+
+
+**Failure to meet one or more of the model assumptions may end up in a poor model performance**. 
+If the assumptions are not met, we can try a different machine learning model or transform the 
+input variables so that they fulfill the assumptions.
+
+
+### How can we evaluate if the assumptions are met by the variables?
+
+- Linear regression can be assessed by scatter-plots and residuals plots
+- Normal distribution can be assessed by Q-Q plots
+- Multi-colinearity can be assessed by correlation matrices
+- Homoscedasticity can be assessed by residuals plots
+
+
+### What can we do if the assumptions are not met?
+
+Sometimes variable transformation can help the variables meet the model assumptions. 
+We normally do 1 of 2 things:
+
+- Mathematical transformation of the variables
+- Discretisation
+
+
+## In this demo...
+
+We will learn how to do:
+- Scatter plots and residual plots to visualise linear relationships
+- Q-Q plots for normality
+- Correlation matrices to determine co-linearity
+- Residual plots for homoscedasticity
+
+We will compare the expected plots (how the plots should look like if the assumptions are met) obtained from simulated data.
