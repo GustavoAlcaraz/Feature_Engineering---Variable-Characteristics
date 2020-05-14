@@ -42,3 +42,6 @@ Examples of nominal categorical variables include sex, business type, eye colour
 
 Australian Bureau of Statistics
 
+The exercises are based on the training notes:
+Feature Engineering for Machine Learning
+by Soledad Galli
